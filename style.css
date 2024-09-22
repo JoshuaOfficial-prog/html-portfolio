@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.calendar-table {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.calendar-table th, 
+.calendar-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.prev-month, .next-month {
+    color: red;
+}
